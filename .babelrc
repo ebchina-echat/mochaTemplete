@@ -1,0 +1,17 @@
+{
+    "presets": [
+      [
+        "@babel/env",
+        {
+          "targets": {
+            "edge": "17",
+            "firefox": "20",
+            "chrome": "35",
+            "safari": "11.1"
+          },
+          "useBuiltIns": "usage",
+          "corejs": "3.6.4"
+        }
+      ]
+    ]
+  }
